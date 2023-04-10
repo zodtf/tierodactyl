@@ -14,16 +14,22 @@
 ```
 
 > #### **WARNING:** This project is still in development and is not yet ready for `ANY` use.
-> > _Heavily `ChatGPT-4` assisted development_ 
+> _Heavily `ChatGPT-4` assisted development_ 
 
 </div>
 
 ---
-# 🥉🥈🥇 Tierodactyl 🥇🥈🥉
-### `Pterodactyl Hierarchy Update System`
+
+<div align="center">
+
+# 🥉🥈🥇 `Tierodactyl` 🥇🥈🥉
+### `Pterodactyl Hierarchy Update System`  
+
+</div>  
+
 This project consists of a `Node.js` application for managing server file updates based on a hierarchical `external id` system and a `Pterodactyl` addon for interfacing with the core application. The application can be run headless as a CLI tool or integrated with the `Pterodactyl panel` using the provided addon.
 
-## 💡 INSPIRATION & MOTIVATION
+## 💡 Inspiration & Motivation
 > I was lazy and needed a tool to automate the process of updating my servers. 
 > I'm not sure how many times I'll have to use this tool to justify the time I spent making it, but I'm sure I'll find a use for it eventually...
 > 
@@ -145,6 +151,11 @@ $ npm test
 ## License
 
 This project is licensed under an ISC license. See the [LICENSE](LICENSE) file for more information.  
+
+---  
+
+### $FIN$!  
+> _Thanks for making it to the end of this README_.  
 
 <hr>
 
