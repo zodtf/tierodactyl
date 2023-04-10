@@ -23,7 +23,7 @@ you've developed in Node.js and TypeScript
 `1.` Create a new Laravel project following Ptero's documentation (idk which is the most up to date)  
    [ptero panel docs](https://pterodactyl.io/community/customization/panel.html)  
 `2.` Define a new route and controller for your addon. 
-   In your Laravel package's routes/web.php file, add the following:
+   In your Laravel package's `routes/web.php` file, add the following:
    
 ```php
 Route::group(['prefix' => 'your-addon'], function () {
