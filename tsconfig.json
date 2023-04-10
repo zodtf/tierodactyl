@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": ".",
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "lib": [
+      "es6",
+      "webworker"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

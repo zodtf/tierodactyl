@@ -1,0 +1,63 @@
+# ISC SOFTWARE LICENSE AGREEMENT
+
+THIS SOFTWARE LICENSE AGREEMENT ("Agreement") is made and entered into as of the date of download or installation ("Effective Date"), by and between [Company Name], a [State] [corporation/limited liability company/other legal entity type] with its principal place of business at [Address] ("Licensor"), and [Licensee Name], a [State] [corporation/limited liability company/other legal entity type] with its principal place of business at [Address] ("Licensee").
+WHEREAS, Licensor is the owner of certain proprietary software and related documentation identified as [Software Name] ("Software");
+WHEREAS, Licensee desires to obtain a license to use the Software pursuant to the terms and conditions set forth herein; and
+WHEREAS, Licensor is willing to grant Licensee a license to use the Software pursuant to the terms and conditions set forth herein.
+NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+
+## LICENSE GRANT.
+1.1 Grant of License. Subject to the terms and conditions of this Agreement, Licensor hereby grants to Licensee a non-exclusive, non-transferable license (the "License") to use the Software in object code form only, solely for Licensee's internal business purposes. The License is free of charge for non-commercial and educational use. However, businesses must pay a licensing fee to use the Software.
+1.2 Restrictions. Licensee shall not, and shall not allow any third party to: (i) copy or distribute the Software, except as expressly permitted under this Agreement; (ii) modify, adapt, translate, or create derivative works of the Software; (iii) reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code or underlying ideas or algorithms of the Software; (iv) sublicense, sell, lend, rent, lease, transfer, assign, or otherwise dispose of the Software, or any rights granted hereunder, to any third party; or (v) use the Software in any manner that violates applicable law or regulations.
+1.3 Third-Party Software. The Software may contain third-party software components, which are subject to separate license terms and conditions. Licensee's use of such third-party software components is subject to Licensee's compliance with such separate license terms and conditions.
+
+## OWNERSHIP.
+2.1 Licensor Ownership. Licensee acknowledges and agrees that, as between the parties, Licensor owns all right, title, and interest in and to the Software and any related documentation, including all intellectual property rights therein.
+2.2 Licensee Ownership. Licensee shall retain all right, title, and interest in and to any data or other materials that it creates using the Software.
+
+## CONFIDENTIALITY.
+3.1 Definition. "Confidential Information" means any non-public information or materials, in any form, provided by one party (the "Disclosing Party") to the other party (the "Receiving Party") that is designated as confidential or that, under the circumstances surrounding disclosure, should be treated as confidential.
+3.2 Obligations. The Receiving Party shall use the Confidential Information solely for the purposes of this Agreement and shall not disclose any Confidential Information to any third party without the Disclosing Party's prior written consent. The Receiving Party shall take all reasonable measures to protect the confidentiality of the Confidential Information, including, without limitation, measures to prevent unauthorized access, use, or disclosure of the Confidential Information.
+3.3 Exceptions. The obligations set forth in this Section 3 shall not apply to any information that: (i)
+is or becomes generally available to the public through no fault of the Receiving Party; (ii) was in the Receiving Party's possession prior to disclosure by the Disclosing Party, without restriction as to use or disclosure; (iii) is rightfully received by the Receiving Party from a third party without restriction as to use or disclosure; or (iv) is independently developed by the Receiving Party without use of or reference to the Disclosing Party's Confidential Information.
+
+## TERM AND TERMINATION.
+4.1 Term. This Agreement shall commence on the Effective Date and shall continue until terminated as provided herein.
+4.2 Termination for Breach. Either party may terminate this Agreement immediately upon written notice if the other party breaches any material term or condition of this Agreement and fails to cure such breach within thirty (30) days after receipt of written notice of such breach.
+4.3 Effect of Termination. Upon termination of this Agreement, Licensee shall immediately cease all use of the Software and return or destroy all copies of the Software in its possession or control. Sections 2, 3, 5, 6, 7, and 8 shall survive any termination of this Agreement.
+
+## WARRANTIES AND DISCLAIMERS.
+5.1 Licensor Warranty. Licensor warrants that it has the right to grant the License granted hereunder and that the Software does not infringe any intellectual property rights of any third party.
+5.2 Disclaimer. EXCEPT FOR THE EXPRESS WARRANTIES SET FORTH IN SECTION 5.1, LICENSOR DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING WITHOUT LIMITATION ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT.
+
+## LIMITATION OF LIABILITY.
+6.1 Limitation. IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION ANY DAMAGES FOR LOST PROFITS, BUSINESS INTERRUPTION, OR LOSS OF DATA, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OF THE SOFTWARE, WHETHER BASED ON CONTRACT, TORT, STRICT LIABILITY, OR ANY OTHER LEGAL THEORY, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+6.2 Cap. LICENSOR'S TOTAL LIABILITY UNDER THIS AGREEMENT, WHETHER IN CONTRACT, TORT, STRICT LIABILITY, OR OTHERWISE, SHALL NOT EXCEED THE AMOUNT PAID BY LICENSEE FOR THE LICENSE HEREUNDER.
+
+## INDEMNIFICATION.
+7.1 Indemnification by Licensor. Licensor shall indemnify and hold Licensee harmless from any third-party claim that the Software infringes any intellectual property rights of such third party.
+7.2 Indemnification by Licensee. Licensee shall indemnify and hold Licensor harmless from any third-party claim arising out of or in connection with Licensee's use of the Software, including without limitation any claim that Licensee's use of the Software violates applicable law or regulations.
+
+## GENERAL.
+8.1 Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of [State], without giving effect to any choice of law or conflict of law provision or rule.
+8.2 Dispute Resolution. Any dispute arising out of or in connection with this Agreement shall be resolved by arbitration in accordance with the rules of the American Arbitration Association, and judgment upon the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof.
+8.3 Entire Agreement. This Agreement constitutes the entire agreement between the parties and supersedes all prior and contemporaneous agreements and understandings, whether written or oral, relating to the subject matter hereof.
+8.4 Amendments. This Agreement may not be amended or modified except in writing signed by both parties.
+8.5 Waiver. No waiver of any provision of this Agreement shall be effective unless in writing and signed by the party against whom such waiver is sought to be enforced. Any such waiver shall be effective only in the specific instance and for the specific purpose for which it was given.
+8.6 Assignment. Licensee shall not assign this Agreement or any of its rights or obligations hereunder without the prior written consent of Licensor. Any attempted assignment in violation of this Section 8.6 shall be null and void.
+8.7 Severability. If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.
+8.8 Notices. Any notices required or permitted to be given under this Agreement shall be in writing and shall be deemed given (i) when delivered personally, (ii) three (3) business days after mailing by certified mail, return receipt requested, or (iii) one (1) business day after delivery by overnight courier, in each case to the addresses set forth above or to such other addresses as the parties may designate in writing from time to time.
+8.9 Independent Contractors. The parties are independent contractors under this Agreement, and nothing herein shall be construed to create a partnership, joint venture, agency, or employment relationship between the parties.
+8.10 Counterparts. This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+# SIGNATURES.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
+`[LICENSEE]`
+By:_______________________________
+Name:_____________________________
+Title:______________________________
+`zod.tf servers`
+By:_______________________________
+Name:_____________________________
+Title:______________________________
