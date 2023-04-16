@@ -94,7 +94,7 @@ exit(0)
 > seems for now we don't need flags here... that will change i think...     
     
 **creates NEW server instances** -- this will require more variables / flags, or settings in `tiers.yml`, or i guess ideally for end-user would be copying from their previous servers by id...   
-_(`layers` format is described [LATER](#layer-path))_  
+_(`layers` format is described [LATER](#layer-path))_   
 `ServerSpecifications` ( _is more in depth... skip this command for now ig? or go hard_ )  
 see the [pterodactyl api docs](https://dashflo.net/docs/api/pterodactyl/v1/#req_190b1006d60748abbeda37c7d407345a) <-- linked to "Create Server" 
 > We should just require an Application level API key tbh  
@@ -107,7 +107,8 @@ see the [pterodactyl api docs](https://dashflo.net/docs/api/pterodactyl/v1/#req_
   
 `name` = the server id...  
 i'm sorry  
-$8# char $HEX$ id, can be found in the panel easily. **1 per server.**  
+
+$8$ char $HEX$ id, can be found in the panel easily. **1 per server.**  
 
 #### `all` argument  
 this command has a special case!  
