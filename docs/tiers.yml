@@ -1,0 +1,102 @@
+             ▄▄                                  ▄▄                                   ▄▄  
+███▀▀██▀▀███ ██                                ▀███                  ██             ▀███  
+█▀   ██   ▀█                                     ██                  ██               ██  
+     ██    ▀███   ▄▄█▀██▀███▄███  ▄██▀██▄   ▄█▀▀███  ▄█▀██▄  ▄██▀████████▀██▀   ▀██▀  ██  
+     ██      ██  ▄█▀   ██ ██▀ ▀▀ ██▀   ▀██▄██    ██ ██   ██ ██▀  ██  ██    ██   ▄█    ██  
+     ██      ██  ██▀▀▀▀▀▀ ██     ██     █████    ██  ▄█████ ██       ██     ██ ▄█     ██  
+     ██      ██  ██▄    ▄ ██     ██▄   ▄██▀██    ██ ██   ██ ██▄    ▄ ██      ███      ██  
+   ▄████▄  ▄████▄ ▀█████▀████▄    ▀█████▀  ▀████▀███▄████▀██▄█████▀  ▀████   ▄█     ▄████▄
+                                                                           ▄█             
+                                                                         ██▀              
+VERSION ${version}
+tiers.yml EXAMPLE
+--- 
+# =========================================================================================== #
+# Tierodactyl -- the multi-target server update plugin (or CLI tool) you never knew you needed. 
+# =========================================================================================== #
+
+# =========================================================================================== #
+# outermost parameter name will always refer to a directory which is alongside this file in this directory. 
+# all subsequent information is then, while kept as generic as possible, becomes moe & more game specific as 
+# this becomes necessary.   
+# =========================================================================================== # 
+
+# =========================================================================================== #
+# [WARNING] This `tiers.yml` is OVER-SPECIFIED for a future potential version that would have
+#           some compatibility checking shit defined here or even insane auto-download functionality...
+#           nah
+# =========================================================================================== #
+
+# (these could be programmatically generated if the file structure is followed...)
+# 
+
+configuration: 
+     ptero_api_key: <supplied>
+     ptero_api_url: <supplied>
+     hierarchy_base_dir: '.' # don't know if relative should be supported... if so, should probably just immediately be resolved to fullpath. 
+
+# after 'configuration', this file should mirror the file directory of the `hierarchy_base_dir`. 
+# FULLY LISTING THE DIRECTORIES IS **NOT** REQUIRED
+# but to add stuff you list the dirs and add stuff 
+
+mc: 
+ - name: 'minecraft' # pretty name
+ v1_19_2: 
+   - name: '1.19.2'
+   forge: 
+     - name: 'forge server'
+   fabric: 
+     - name: 'fabric server'  
+
+tf2: 
+- name: 'team fortress 2'
+- partial_overwrite_paths: 
+     - "tf/cfg/server.cfg" # this means this file MUST have a line which is commented out and contains the text "TIERO_END", and merges will stop at that line. Defined by the user as a list so as to avoid wasting time reading files
+  comp: 
+     - name: 'competitive'
+    mge:
+     - name: 'mge'
+    dev:
+     - name: 'development server'   
+  casual: 
+     - name: 'casual'
+  mvm: 
+     - name: 'mann vs. machine'
+   
+  
+
+#    ignore this, i am stupid
+# ===============================|POTENTIAL_FUTURE_VERSION|================================== #
+# mc: 
+# name: 'minecraft'
+# - latest: 'v1.19.2'
+#   versions:  # versions of the game with no modification which (are planned to be ) supported.
+#      - '1.19.2'
+#      - '1.17.1'
+#      - '1.15.2'
+#      - '1.12.1'
+#      - '1.9.2'
+#      - '1.8.2'
+#      - '1.7.1'
+#      - '1.5.0'
+#      - '.1.2.4',
+#      - '1.1',
+#      - 'beta1.7.3'
+#      - 'beta1.0'
+#      - 'alpha1.2.6'
+#      - 'alpha1.0.17_04'
+#      - 'alpha1.0.0'
+#  # STOP WRITING WAY MORE THAN JUST ESSENTIAL SCHEMA YOU SWAMP RAT  
+ 
+#      forge: 
+#       - name:
+#      latest: 'v1.19.2'
+#       - supported: ['1.19.2'...'1.1'],
+
+      
+#      fabric: 
+#           latest: 'idk',
+
+
+   
+    
